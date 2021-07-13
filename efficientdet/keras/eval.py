@@ -18,15 +18,15 @@ from absl import flags
 from absl import logging
 import tensorflow as tf
 
-import coco_metric
-import dataloader
-import hparams_config
-import utils
-from keras import anchors
-from keras import efficientdet_keras
-from keras import label_util
-from keras import postprocess
-from keras import util_keras
+from .. import coco_metric
+from .. import dataloader
+from .. import hparams_config
+from .. import utils
+from . import anchors
+from . import efficientdet_keras
+from . import label_util
+from . import postprocess
+from . import util_keras
 
 # Cloud TPU Cluster Resolvers
 flags.DEFINE_string('tpu', None, 'The Cloud TPU name.')

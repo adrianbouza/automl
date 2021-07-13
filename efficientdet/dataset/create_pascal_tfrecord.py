@@ -31,7 +31,7 @@ from lxml import etree
 import PIL.Image
 import tensorflow as tf
 
-from dataset import tfrecord_util
+from . import tfrecord_util
 
 FLAGS = flags.FLAGS
 

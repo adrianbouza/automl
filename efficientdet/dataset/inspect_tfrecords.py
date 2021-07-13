@@ -21,10 +21,10 @@ import numpy as np
 from PIL import Image
 import tensorflow as tf
 
-import dataloader
-import hparams_config
-import utils
-from visualize import vis_utils
+from .. import dataloader
+from .. import hparams_config
+from .. import utils
+from ..visualize import vis_utils
 
 flags.DEFINE_string('save_samples_dir', 'tfrecord_samples',
                     'Location of samples to save')

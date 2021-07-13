@@ -17,9 +17,9 @@ import os
 import tempfile
 from absl import logging
 import tensorflow as tf
-import test_util
-from keras import efficientdet_keras
-from keras import infer_lib
+from .. import test_util
+from . import efficientdet_keras
+from . import infer_lib
 
 
 class InferenceTest(tf.test.TestCase):

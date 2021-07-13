@@ -23,9 +23,9 @@ import numpy as np
 from PIL import Image
 import tensorflow as tf
 
-import hparams_config
-import utils
-from keras import infer_lib
+from .. import hparams_config
+from .. import utils
+from . import infer_lib
 
 flags.DEFINE_string('model_name', 'efficientdet-d0', 'Model.')
 flags.DEFINE_enum('mode', 'infer',

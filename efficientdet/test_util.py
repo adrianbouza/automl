@@ -16,7 +16,7 @@ r"""Test utilities."""
 import os
 
 import tensorflow as tf
-from dataset import tfrecord_util
+from .dataset import tfrecord_util
 
 
 def make_fake_tfrecord(temp_dir):

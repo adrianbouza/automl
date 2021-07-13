@@ -19,14 +19,14 @@ from absl import logging
 import numpy as np
 import tensorflow as tf
 
-import coco_metric
-import dataloader
-import hparams_config
-import utils
+from .. import coco_metric
+from .. import dataloader
+from .. import hparams_config
+from .. import utils
 
-from keras import anchors
-from keras import label_util
-from keras import postprocess
+from . import anchors
+from . import label_util
+from . import postprocess
 
 FLAGS = flags.FLAGS
 

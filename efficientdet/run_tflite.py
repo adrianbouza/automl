@@ -19,7 +19,7 @@ from absl import flags
 from PIL import Image
 import tensorflow as tf
 
-import inference
+from . import inference
 
 FLAGS = flags.FLAGS
 

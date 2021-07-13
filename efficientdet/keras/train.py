@@ -20,12 +20,12 @@ from absl import flags
 from absl import logging
 import tensorflow as tf
 
-import dataloader
-import hparams_config
-import utils
-from keras import tfmot
-from keras import train_lib
-from keras import util_keras
+from .. import dataloader
+from .. import hparams_config
+from .. import utils
+from . import tfmot
+from . import train_lib
+from . import util_keras
 
 FLAGS = flags.FLAGS
 
