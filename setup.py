@@ -2,7 +2,7 @@ import setuptools
 
 
 setuptools.setup(
-    name             = 'efficientdet',
+    name             = 'automl-efficientdet',
     version          = '0.0.0',
     description      = '',
     url              = 'https://github.com/google/automl',
